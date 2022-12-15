@@ -1,0 +1,7 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand"
+}
