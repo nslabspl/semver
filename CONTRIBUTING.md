@@ -21,20 +21,13 @@ RFCs require the consensus of all team members (see below) to merge.
 
 ## The SemVer Team
 
-We welcome feedback from anyone on the direction of SemVer. However, a group of people, "the SemVer team," are responsible for making decisions about RFC PRs. The SemVer team is made up of representatives from package managers that use SemVer. 
+We welcome feedback from anyone on the direction of SemVer. However, a group of people, "the SemVer team," are responsible for making decisions about RFC PRs. The SemVer team is made up of representatives from package managers that use SemVer.
 
 Team members are added and removed based on the consensus of the existing team members. The @semver/maintainers team on GitHub contains the official list of the members of "the SemVer team."
 
 The maintainers are:
 
-* [dherman](https://github.com/dherman) ([Notion](https://www.notionjs.com/))
-* [indirect](https://github.com/indirect) ([Bundler](https://bundler.io/))
-* [isaacs](https://github.com/isaacs) ([npm](https://www.npmjs.com/))
-* [JohnTitor](https://github.com/JohnTitor) ([crates.io](https://crates.io/))
-* [segiddins](https://github.com/segiddins) ([CocoaPods](https://cocoapods.org/))
-* [steveklabnik](https://github.com/steveklabnik) ([Cargo](https://crates.io/))
-* [Seldaek](https://github.com/Seldaek) ([Composer](https://getcomposer.org/))
-* [zkat](https://github.com/zkat) ([NuGet](https://www.nuget.org/))
+* [wojtekxtx](https://github.com/wojtekxtx)
 
 ## Participation commitment
 
@@ -53,10 +46,10 @@ Once a PR is tagged as an RFC:
 * The team will discuss the RFC, as much as possible in the comment thread of the pull request itself. Offline discussion will be summarized on the pull request comment thread.
 * RFCs rarely go through this process unchanged. You can make edits, big and small, to the RFC to clarify or change the design, but make changes as new commits to the pull request, and leave a comment on the pull request explaining your changes. Specifically, do not squash or rebase commits after they are visible on the pull request.
 * At some point, a member of the team will propose a "motion for final comment period" (FCP), along with a disposition for the RFC (merge, close, or postpone).
-    * This step is taken when enough of the tradeoffs have been discussed that the subteam is in a position to make a decision. That does not require consensus amongst all participants in the RFC thread (which is usually impossible). However, the argument supporting the disposition on the RFC needs to have already been clearly articulated, and there should not be a strong consensus against that position outside of the subteam. Subteam members use their best judgment in taking this step, and the FCP itself ensures there is ample time and notification for stakeholders to push back if it is made prematurely.
-    * For RFCs with lengthy discussion, the motion to FCP is usually preceded by a summary comment
+  * This step is taken when enough of the tradeoffs have been discussed that the subteam is in a position to make a decision. That does not require consensus amongst all participants in the RFC thread (which is usually impossible). However, the argument supporting the disposition on the RFC needs to have already been clearly articulated, and there should not be a strong consensus against that position outside of the subteam. Subteam members use their best judgment in taking this step, and the FCP itself ensures there is ample time and notification for stakeholders to push back if it is made prematurely.
+  * For RFCs with lengthy discussion, the motion to FCP is usually preceded by a summary comment
     trying to lay out the current state of the discussion and major tradeoffs/points of disagreement.
-    * Before actually entering FCP, all members of the subteam must sign off; this is often the point at which many subteam members first review the RFC in full depth.
+  * Before actually entering FCP, all members of the subteam must sign off; this is often the point at which many subteam members first review the RFC in full depth.
 * The FCP lasts ten calendar days, so that it is open for at least 5 business days. This way all stakeholders have a chance to lodge any final objections before a decision is reached.
 * In most cases, the FCP period is quiet, and the RFC is either merged or closed. However, sometimes substantial new arguments or ideas are raised, the FCP is canceled, and the RFC goes back into development mode.
 
